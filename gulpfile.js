@@ -4,8 +4,8 @@ var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 
 var input = {
-  haml: __dirname + '/*.haml',
-  scss: __dirname + '/*.scss'
+  haml: __dirname + '/**/*.haml',
+  scss: __dirname + '/**/*.scss'
 }
 
 gulp.task('watch-haml', function() {
